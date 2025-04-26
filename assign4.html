@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nurture Homecare</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      line-height: 1.6;
+    }
+
+    /* NAVIGATION */
+    nav {
+      background-color: #005b4f;
+      padding: 1rem 2rem;
+      color: #fff;
+    }
+
+    nav ul {
+      display: flex;
+      justify-content: space-between;
+      list-style: none;
+      flex-wrap: wrap;
+    }
+
+    nav li {
+      padding: 0.5rem 1rem;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    /* HERO SECTION */
+    header {
+      background: url('https://images.unsplash.com/photo-1588776814546-63b5f951c661') no-repeat center center/cover;
+      height: 60vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      text-shadow: 1px 1px 4px #000;
+      text-align: center;
+      padding: 2rem;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      max-width: 700px;
+    }
+
+    /* MAIN CONTENT */
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 2rem;
+      padding: 2rem;
+    }
+
+    .section {
+      background-color: #f1f1f1;
+      padding: 1.5rem;
+      border-radius: 8px;
+      flex: 1 1 300px;
+      min-width: 260px;
+    }
+
+    .section h2 {
+      color: #005b4f;
+      margin-bottom: 0.5rem;
+    }
+
+    /* FOOTER */
+    footer {
+      background-color: #005b4f;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+
+    /* MEDIA QUERIES */
+    @media (max-width: 768px) {
+      nav ul {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      header {
+        height: auto;
+        padding: 4rem 1rem;
+      }
+
+      header h1 {
+        font-size: 2rem;
+      }
+
+      .container {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- NAVIGATION -->
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <header>
+    <h1>Compassionate Care for Your Loved Ones – Nurture Homecare</h1>
+  </header>
+
+  <!-- MAIN CONTENT -->
+  <div class="container">
+    <div class="section">
+      <h2>About Us</h2>
+      <p>Nurture Homecare is dedicated to providing trusted, compassionate homecare for seniors and individuals in need. Our caregivers are trained, empathetic, and committed to your well-being.</p>
+    </div>
+    <div class="section">
+      <h2>Our Services</h2>
+      <ul>
+        <li>Personal Care Assistance</li>
+        <li>Post-surgical Care</li>
+        <li>Medication Management</li>
+        <li>Palliative care</li>
+        <li>End of Life Care</li>
+      </ul>
+    </div>
+    <div class="section">
+      <h2>Contact Us</h2>
+      <p>Phone: (254) 759421816<br />
+      Email:nurturehomecare02@gmail.com<br />
+      Location: Nairobi, Kenya</p>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+    &copy; 2025 Nurture Homecare. All rights reserved.
+  </footer>
+
+</body>
+</html>
